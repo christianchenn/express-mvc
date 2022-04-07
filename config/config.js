@@ -1,3 +1,4 @@
+const API_KEY = ''
 module.exports = {
     database: {
         host: "localhost",
@@ -8,5 +9,10 @@ module.exports = {
     },
     server: {
         port: 3000
+    },
+    API_URL: "https://api.genius.com",
+    API_KEY: API_KEY,
+    API_CONFIG: {
+        Authorization: `Bearer ${API_KEY}`,
     }
 }
