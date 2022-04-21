@@ -10,6 +10,7 @@ module.exports = {
     server: {
         port: 3000
     },
+    secret:"soaMudahBukan?",
     API_URL: "https://api.spoonacular.com",
     API_KEY: API_KEY,
     API_CONFIG: {
